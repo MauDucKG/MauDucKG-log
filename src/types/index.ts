@@ -29,7 +29,7 @@ export type TPost = {
     profile_photo?: string
   }[]
   title: string
-  status: TPostStatus[]
+  status: TPostStatus[] 
   createdTime: string
   fullWidth: boolean
   thumbnail?: string
